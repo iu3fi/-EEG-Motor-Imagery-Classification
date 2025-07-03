@@ -65,17 +65,11 @@ These results indicate that CSP provides a more discriminative feature represent
 
 ### Installation
 
-1.  Clone the repository:
+Clone the repository:
     ```bash
     git clone [https://github.com/yourusername/EEG-Motor-Imagery-Classification.git](https://github.com/yourusername/EEG-Motor-Imagery-Classification.git)
     cd EEG-Motor-Imagery-Classification
     ```
-2.  Install the required Python packages:
-```bash
-    pip install -r requirements.txt
-    ```
-    (Note: You will need to generate a `requirements.txt` file from the above requirements.)
-
 ### Data
 
 The project uses data from the BCI Competition IV 2a dataset. You need to download and place the raw `.gdf` files and their true corresponding labels (`.mat` files) in the given `raw_data_folder` and `mat_folder` paths in `1. Preprocessing.ipynb`.
